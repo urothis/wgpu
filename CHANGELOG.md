@@ -42,6 +42,12 @@ Bottom level categories:
 
 ## Unreleased
 
+### Bug Fixes
+
+#### Metal
+
+- Advertise `TEXTURE_INT64_ATOMIC` and R64Uint storage atomics on Apple8+Mac2 devices with MSL 3.1, restoring support for 64-bit texture atomic min/max on M2 Macs. Backport of [#10604](https://github.com/gfx-rs/wgpu/pull/10604).
+
 ## v30.0.1 (2026-08-21)
 
 ### Bug Fixes
